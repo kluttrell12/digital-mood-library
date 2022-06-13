@@ -1,393 +1,396 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "fullName": "Jeff Wilson",
-        "email": "Jwilson@email.com"
-      },
-      {
-        "id": 2,
-        "fullName": "Gary Lezak",
-        "email": "Glezak@email.com"
-      },
-      {
-        "id": 3,
-        "fullName": "Steve Jones",
-        "email": "Sjones@email.com"
-        
-      },
-      {
-        "id": 4,
-        "fullName": "Leila Biggums",
-        "email": "Lbiggums@email.com"
-        
-      },
-      {
-        "id": 5,
-        "fullName": "Cindy Nugent",
-        "email": "Cnugent@email.com"
-        
-      },
-      {
-        "id": 6,
-        "fullName": "Tracy Babshook",
-        "email": "Tbabshook@email.com"
-        
-      },
-      {
-        "id": 7,
-        "fullName": "Gerald David",
-        "email": "Gdavid@email.com"
-        
-      },
-      { 
-         "id": 8,
-        "fullName": "Gerald David",
-        "email": "Gdavid@email.com"
-      }
-    ],
-    "readers": [
-      {
-        "id": 1,
-        "userId": 5
-      },
-      {
-        "id": 2,
-        "userId": 7 
-      },
-      {
-        "id": 3,
-        "userId": 6
-      },
-      {
-        "id": 4,
-        "userId": 8
-      },
-      {
-        "id": 5,
-        "userId": 4
-      },
-      {
-        "id": 6,
-        "userId": 2
-      },
-      {
-        "id": 7,
-        "userId": 1
-      },
-      {
-        "id": 8,
-        "userId": 3
-      }
-    ],
-    "books": [
-      {
-        "id": 1,
-        "bookGenreId": 1,
-        "moodId": 3,
-        "title": "Treasure Island",
-        "author": "Robert Louis Stevenson"
-      },
-      {
-        "id": 2,
-        "bookGenreId": 1,
-        "moodId": 2,
-        "title": "The Hobbit",
-        "author": "J.R.R. Tolkein"
-      },
-      {
-        "id": 3,
-        "bookGenreId": 1,
-        "moodId": 2,
-        "title": "Robinson Crusoe",
-        "author": "Daniel Defoe"
-      },
-      {
-        "id": 4,
-        "bookGenreId": 1,
-        "moodId": 1,
-        "title": "The Count of Monte Cristo",
-        "author": "Alexandre Dumas"
-      },
-      {
-        "id": 5,
-        "bookGenreId": 1,
-        "moodId": 2,
-        "title": "Life of Pi",
-        "author": "Yann Martel"
-      },
-      {
-        "id": 6,
-        "bookGenreId": 2,
-        "moodId": 3,
-        "title": "The Gunslinger",
-        "author": "Stephen King"
-      },
-      {
-        "id": 7,
-        "bookGenreId": 2,
-        "moodId": 2,
-        "title": "The Princess Bride",
-        "author": "William Goldman"
-      },
-      {
-        "id": 8,
-        "bookGenreId": 2,
-        "moodId": 1,
-        "title": "The Neverending Story",
-        "author": "Michael Ende"
-      },
-      {
-        "id": 9,
-        "bookGenreId": 2,
-        "moodId": 3,
-        "title": "Tigana",
-        "author": "Guy Gavriel Kay"
-      },
-      {
-        "id": 10,
-        "bookGenreId": 2,
-        "moodId": 1,
-        "title": "Best Served Cold",
-        "author": "Joe Abercrombie"
-      },
-      {
-        "id": 11,
-        "bookGenreId": 3,
-        "moodId": 5,
-        "title": "Dream Town",
-        "author": "David Baldacci"
-      },
-      {
-        "id": 12,
-        "bookGenreId": 3,
-        "moodId": 5,
-        "title": "See Her Die",
-        "author": "Melinda Leigh"
-      },
-      {
-        "id": 13,
-        "bookGenreId": 3,
-        "moodId": 1,
-        "title": "In the Blood",
-        "author": "Jack Carr"
-      },
-      {
-        "id": 14,
-        "bookGenreId": 3,
-        "moodId": 5,
-        "title": "Drift",
-        "author": "L.T. Ryan"
-      },
-      {
-        "id": 15,
-        "bookGenreId": 3,
-        "moodId": 1,
-        "title": "No Way Back",
-        "author": "J.B. Turner"
-      },
-      {
-        "id": 16,
-        "bookGenreId": 4,
-        "moodId": 4,
-        "title": "Pride and Prejudice",
-        "author": "Jane Austen"
-      },
-      {
-        "id": 17,
-        "bookGenreId": 4,
-        "moodId": 4,
-        "title": "Beach Read",
-        "author": "Emily Henry"
-      },
-      {
-        "id": 18,
-        "bookGenreId": 4,
-        "moodId": 4,
-        "title": "Time Traveler's Wife",
-        "author": "Audrey Niffenegger"
-      },
-      {
-        "id": 19,
-        "bookGenreId": 4,
-        "moodId": 4,
-        "title": "Eleanor and Park",
-        "author": "Rainbow Rowell"
-      },
-      {
-        "id": 20,
-        "bookGenreId": 4,
-        "moodId": 4,
-        "title": "One Day in December",
-        "author": "Josie Silver"
-      },
-      {
-        "id": 21,
-        "bookGenreId": 5,
-        "moodId": 5,
-        "title": "The Tattoist of Auschwitz",
-        "author": "Heather Morris"
-      },
-      {
-        "id": 22,
-        "bookGenreId": 5,
-        "moodId": 3,
-        "title": "Educated",
-        "author": "Tara Westover"
-      },
-      {
-        "id": 23,
-        "bookGenreId": 5,
-        "moodId": 5,
-        "title": "North to Paradise",
-        "author": "Ousman Umar"
-      },
-      {
-        "id": 24,
-        "bookGenreId": 5,
-        "moodId": 5,
-        "title": "In the Dream House",
-        "author": "Carmen Maria Machado"
-      },
-      {
-        "id": 25,
-        "bookGenreId": 5,
-        "moodId": 3,
-        "title": "Ghetto Side",
-        "author": "Jill Leovy"
-      },
-      {
-        "id": 26,
-        "bookGenreId": 6,
-        "moodId": 1,
-        "title": "The Da Vinci Code",
-        "author": "Dan Brown"
-      },
-      {
-        "id": 27,
-        "bookGenreId": 6,
-        "moodId": 5,
-        "title": "Gone Girl",
-        "author": "Gillian Flynn"
-      },
-      {
-        "id": 28,
-        "bookGenreId": 6,
-        "moodId": 5,
-        "title": "The Girl With the Dragon Tattoo",
-        "author": "Stieg Larsson"
-      },
-      {
-        "id": 29,
-        "bookGenreId": 6,
-        "moodId": 3,
-        "title": "The Girl on the Train",
-        "author": "Paula Hawkins"
-      },
-      {
-        "id": 30,
-        "bookGenreId": 6,
-        "moodId": 5,
-        "title": "The Firm",
-        "author": "Robin Waterfield"
-      },
-      {
-        "id": 31,
-        "bookGenreId": 7,
-        "moodId": 5,
-        "title": "House of Leaves",
-        "author": "Mark Z. Danielewski"
-      },
-      {
-        "id": 32,
-        "bookGenreId": 7,
-        "moodId": 3,
-        "title": "Hell House",
-        "author": "Richard Matheson"
-      },
-      {
-        "id": 33,
-        "bookGenreId": 7,
-        "moodId": 3,
-        "title": "Ghost Story",
-        "author": "Peter Straub"
-      },
-      {
-        "id": 34,
-        "bookGenreId": 7,
-        "moodId": 4,
-        "title": "The Turn of the Screw",
-        "author": "Henry James"
-      },
-      {
-        "id": 35,
-        "bookGenreId": 7,
-        "moodId": 3,
-        "title": "The Troop",
-        "author": "Nick Cutter"
-      }
-    ],
-    "bookGenres": [
-      {
-        "id": 1,
-        "genre": "Adventure"
-      },
-      {
-        "id": 2,
-        "genre": "Fantasy"
-      },
-      {
-        "id": 3,
-        "genre": "Action"
-      },
-      {
-        "id": 4,
-        "genre": "Romance"
-      },
-      {
-        "id": 5,
-        "genre": "Non-Fiction"
-      },
-      {
-        "id": 6,
-        "genre": "Thriller"
-      },
-      {
-        "id": 7,
-        "genre": "Horror"
-      }
-    ],
-
-    "moods": [
-        {
-          "id": 1,
-          "type": "Happy"
-        },
-        {
-          "id": 2,
-          "type": "Sad"
-        },
-        {
-          "id": 3,
-          "type": "Bored"
-        },
-        {
-          "id": 4,
-          "type": "Lonely"
-        },
-        {
-          "id": 5,
-          "type": "Relaxed"
-        }
-      ],
-
-    "recommendations": [
-      {
-        "id": 1,
-        "readerId": 2,
-        "productId": 1,
-        "bookQty": 1,
-        "date": "06/02/2022"
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Jeff Wilson",
+      "email": "Jwilson@email.com"
+    },
+    {
+      "id": 2,
+      "fullName": "Gary Lezak",
+      "email": "Glezak@email.com"
+    },
+    {
+      "id": 3,
+      "fullName": "Steve Jones",
+      "email": "Sjones@email.com"
+    },
+    {
+      "id": 4,
+      "fullName": "Leila Biggums",
+      "email": "Lbiggums@email.com"
+    },
+    {
+      "id": 5,
+      "fullName": "Cindy Nugent",
+      "email": "Cnugent@email.com"
+    },
+    {
+      "id": 6,
+      "fullName": "Tracy Babshook",
+      "email": "Tbabshook@email.com"
+    },
+    {
+      "id": 7,
+      "fullName": "Gerald David",
+      "email": "Gdavid@email.com"
+    },
+    {
+      "id": 8,
+      "fullName": "Gerald David",
+      "email": "Gdavid@email.com"
+    },
+    {
+      "email": "kiefer@email.com",
+      "fullName": "Kiefer Luttrell",
+      "id": 9
+    },
+    {
+      "email": "keagan@email.com",
+      "fullName": "Keagan Luttrell",
+      "id": 10
+    }
+  ],
+  "readers": [
+    {
+      "id": 1,
+      "userId": 5
+    },
+    {
+      "id": 2,
+      "userId": 7
+    },
+    {
+      "id": 3,
+      "userId": 6
+    },
+    {
+      "id": 4,
+      "userId": 8
+    },
+    {
+      "id": 5,
+      "userId": 4
+    },
+    {
+      "id": 6,
+      "userId": 2
+    },
+    {
+      "id": 7,
+      "userId": 1
+    },
+    {
+      "id": 8,
+      "userId": 3
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "bookGenreId": 1,
+      "moodId": 3,
+      "title": "Treasure Island",
+      "author": "Robert Louis Stevenson"
+    },
+    {
+      "id": 2,
+      "bookGenreId": 1,
+      "moodId": 2,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkein"
+    },
+    {
+      "id": 3,
+      "bookGenreId": 1,
+      "moodId": 2,
+      "title": "Robinson Crusoe",
+      "author": "Daniel Defoe"
+    },
+    {
+      "id": 4,
+      "bookGenreId": 1,
+      "moodId": 1,
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas"
+    },
+    {
+      "id": 5,
+      "bookGenreId": 1,
+      "moodId": 2,
+      "title": "Life of Pi",
+      "author": "Yann Martel"
+    },
+    {
+      "id": 6,
+      "bookGenreId": 2,
+      "moodId": 3,
+      "title": "The Gunslinger",
+      "author": "Stephen King"
+    },
+    {
+      "id": 7,
+      "bookGenreId": 2,
+      "moodId": 2,
+      "title": "The Princess Bride",
+      "author": "William Goldman"
+    },
+    {
+      "id": 8,
+      "bookGenreId": 2,
+      "moodId": 1,
+      "title": "The Neverending Story",
+      "author": "Michael Ende"
+    },
+    {
+      "id": 9,
+      "bookGenreId": 2,
+      "moodId": 3,
+      "title": "Tigana",
+      "author": "Guy Gavriel Kay"
+    },
+    {
+      "id": 10,
+      "bookGenreId": 2,
+      "moodId": 1,
+      "title": "Best Served Cold",
+      "author": "Joe Abercrombie"
+    },
+    {
+      "id": 11,
+      "bookGenreId": 3,
+      "moodId": 5,
+      "title": "Dream Town",
+      "author": "David Baldacci"
+    },
+    {
+      "id": 12,
+      "bookGenreId": 3,
+      "moodId": 5,
+      "title": "See Her Die",
+      "author": "Melinda Leigh"
+    },
+    {
+      "id": 13,
+      "bookGenreId": 3,
+      "moodId": 1,
+      "title": "In the Blood",
+      "author": "Jack Carr"
+    },
+    {
+      "id": 14,
+      "bookGenreId": 3,
+      "moodId": 5,
+      "title": "Drift",
+      "author": "L.T. Ryan"
+    },
+    {
+      "id": 15,
+      "bookGenreId": 3,
+      "moodId": 1,
+      "title": "No Way Back",
+      "author": "J.B. Turner"
+    },
+    {
+      "id": 16,
+      "bookGenreId": 4,
+      "moodId": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen"
+    },
+    {
+      "id": 17,
+      "bookGenreId": 4,
+      "moodId": 4,
+      "title": "Beach Read",
+      "author": "Emily Henry"
+    },
+    {
+      "id": 18,
+      "bookGenreId": 4,
+      "moodId": 4,
+      "title": "Time Traveler's Wife",
+      "author": "Audrey Niffenegger"
+    },
+    {
+      "id": 19,
+      "bookGenreId": 4,
+      "moodId": 4,
+      "title": "Eleanor and Park",
+      "author": "Rainbow Rowell"
+    },
+    {
+      "id": 20,
+      "bookGenreId": 4,
+      "moodId": 4,
+      "title": "One Day in December",
+      "author": "Josie Silver"
+    },
+    {
+      "id": 21,
+      "bookGenreId": 5,
+      "moodId": 5,
+      "title": "The Tattoist of Auschwitz",
+      "author": "Heather Morris"
+    },
+    {
+      "id": 22,
+      "bookGenreId": 5,
+      "moodId": 3,
+      "title": "Educated",
+      "author": "Tara Westover"
+    },
+    {
+      "id": 23,
+      "bookGenreId": 5,
+      "moodId": 5,
+      "title": "North to Paradise",
+      "author": "Ousman Umar"
+    },
+    {
+      "id": 24,
+      "bookGenreId": 5,
+      "moodId": 5,
+      "title": "In the Dream House",
+      "author": "Carmen Maria Machado"
+    },
+    {
+      "id": 25,
+      "bookGenreId": 5,
+      "moodId": 3,
+      "title": "Ghetto Side",
+      "author": "Jill Leovy"
+    },
+    {
+      "id": 26,
+      "bookGenreId": 6,
+      "moodId": 1,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown"
+    },
+    {
+      "id": 27,
+      "bookGenreId": 6,
+      "moodId": 5,
+      "title": "Gone Girl",
+      "author": "Gillian Flynn"
+    },
+    {
+      "id": 28,
+      "bookGenreId": 6,
+      "moodId": 5,
+      "title": "The Girl With the Dragon Tattoo",
+      "author": "Stieg Larsson"
+    },
+    {
+      "id": 29,
+      "bookGenreId": 6,
+      "moodId": 3,
+      "title": "The Girl on the Train",
+      "author": "Paula Hawkins"
+    },
+    {
+      "id": 30,
+      "bookGenreId": 6,
+      "moodId": 5,
+      "title": "The Firm",
+      "author": "Robin Waterfield"
+    },
+    {
+      "id": 31,
+      "bookGenreId": 7,
+      "moodId": 5,
+      "title": "House of Leaves",
+      "author": "Mark Z. Danielewski"
+    },
+    {
+      "id": 32,
+      "bookGenreId": 7,
+      "moodId": 3,
+      "title": "Hell House",
+      "author": "Richard Matheson"
+    },
+    {
+      "id": 33,
+      "bookGenreId": 7,
+      "moodId": 3,
+      "title": "Ghost Story",
+      "author": "Peter Straub"
+    },
+    {
+      "id": 34,
+      "bookGenreId": 7,
+      "moodId": 4,
+      "title": "The Turn of the Screw",
+      "author": "Henry James"
+    },
+    {
+      "id": 35,
+      "bookGenreId": 7,
+      "moodId": 3,
+      "title": "The Troop",
+      "author": "Nick Cutter"
+    }
+  ],
+  "bookGenres": [
+    {
+      "id": 1,
+      "genre": "Adventure"
+    },
+    {
+      "id": 2,
+      "genre": "Fantasy"
+    },
+    {
+      "id": 3,
+      "genre": "Action"
+    },
+    {
+      "id": 4,
+      "genre": "Romance"
+    },
+    {
+      "id": 5,
+      "genre": "Non-Fiction"
+    },
+    {
+      "id": 6,
+      "genre": "Thriller"
+    },
+    {
+      "id": 7,
+      "genre": "Horror"
+    }
+  ],
+  "moods": [
+    {
+      "id": 1,
+      "type": "Happy"
+    },
+    {
+      "id": 2,
+      "type": "Sad"
+    },
+    {
+      "id": 3,
+      "type": "Bored"
+    },
+    {
+      "id": 4,
+      "type": "Lonely"
+    },
+    {
+      "id": 5,
+      "type": "Relaxed"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 1,
+      "readerId": 2,
+      "productId": 1,
+      "bookQty": 1,
+      "date": "06/02/2022"
+    }
+  ]
+}
