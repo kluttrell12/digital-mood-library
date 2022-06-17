@@ -379,8 +379,7 @@
   "myList": [
     {
       "id": 1,
-      "userId": 1,
-      "bookId": 1      
+      "selectedBooksId": 1
     }
   ]
 }
