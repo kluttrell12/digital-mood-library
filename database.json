@@ -49,40 +49,16 @@
       "email": "keagan@email.com",
       "fullName": "Keagan Luttrell",
       "id": 10
-    }
-  ],
-  "readers": [
-    {
-      "id": 1,
-      "userId": 5
     },
     {
-      "id": 2,
-      "userId": 7
+      "email": "Dave@email.com",
+      "fullName": "Dave Crockett",
+      "id": 11
     },
     {
-      "id": 3,
-      "userId": 6
-    },
-    {
-      "id": 4,
-      "userId": 8
-    },
-    {
-      "id": 5,
-      "userId": 4
-    },
-    {
-      "id": 6,
-      "userId": 2
-    },
-    {
-      "id": 7,
-      "userId": 1
-    },
-    {
-      "id": 8,
-      "userId": 3
+      "email": "mallory@email.com",
+      "fullName": "Mallory Stubbs",
+      "id": 12
     }
   ],
   "books": [
@@ -386,11 +362,25 @@
   ],
   "recommendations": [
     {
+      "userId": 1,
+      "bookGenre": "Action",
+      "bookTitle": "Action",
+      "bookAuthor": "Action",
+      "id": 1
+    }
+  ],
+  "selectedBooks": [
+    {
       "id": 1,
-      "readerId": 2,
-      "productId": 1,
-      "bookQty": 1,
-      "date": "06/02/2022"
+      "userId": 1,
+      "bookId": 1
+    }
+  ],
+  "myList": [
+    {
+      "id": 1,
+      "userId": 1,
+      "bookId": 1      
     }
   ]
 }
