@@ -4,61 +4,6 @@
       "id": 1,
       "fullName": "Jeff Wilson",
       "email": "Jwilson@email.com"
-    },
-    {
-      "id": 2,
-      "fullName": "Gary Lezak",
-      "email": "Glezak@email.com"
-    },
-    {
-      "id": 3,
-      "fullName": "Steve Jones",
-      "email": "Sjones@email.com"
-    },
-    {
-      "id": 4,
-      "fullName": "Leila Biggums",
-      "email": "Lbiggums@email.com"
-    },
-    {
-      "id": 5,
-      "fullName": "Cindy Nugent",
-      "email": "Cnugent@email.com"
-    },
-    {
-      "id": 6,
-      "fullName": "Tracy Babshook",
-      "email": "Tbabshook@email.com"
-    },
-    {
-      "id": 7,
-      "fullName": "Gerald David",
-      "email": "Gdavid@email.com"
-    },
-    {
-      "id": 8,
-      "fullName": "Gerald David",
-      "email": "Gdavid@email.com"
-    },
-    {
-      "email": "kiefer@email.com",
-      "fullName": "Kiefer Luttrell",
-      "id": 9
-    },
-    {
-      "email": "keagan@email.com",
-      "fullName": "Keagan Luttrell",
-      "id": 10
-    },
-    {
-      "email": "Dave@email.com",
-      "fullName": "Dave Crockett",
-      "id": 11
-    },
-    {
-      "email": "mallory@email.com",
-      "fullName": "Mallory Stubbs",
-      "id": 12
     }
   ],
   "books": [
@@ -374,12 +319,6 @@
       "id": 1,
       "userId": 1,
       "bookId": 1
-    }
-  ],
-  "myList": [
-    {
-      "id": 1,
-      "selectedBooksId": 1
     }
   ]
 }
