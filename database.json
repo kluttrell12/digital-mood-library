@@ -4,6 +4,25 @@
       "id": 1,
       "fullName": "Jeff Wilson",
       "email": "Jwilson@email.com"
+    },
+    {
+      "email": "kiefer@email.com",
+      "fullName": "Kiefer Luttrell",
+      "id": 2
+    }
+  ],
+  "readers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "favoriteGenre": "Adventure",
+      "booksRead": 3
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "favoriteGenre": "Adventure",
+      "booksRead": 6
     }
   ],
   "books": [
@@ -312,6 +331,54 @@
       "bookTitle": "Action",
       "bookAuthor": "Action",
       "id": 1
+    },
+    {
+      "userId": 1,
+      "bookGenre": "test",
+      "bookTitle": "test",
+      "bookAuthor": "test",
+      "dateCompleted": "2022-06-20T15:36:50.771Z",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "bookGenre": "Non-Fiction",
+      "bookTitle": "test",
+      "bookAuthor": "test",
+      "dateCompleted": "2022-06-20T17:03:34.584Z",
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "bookGenre": "Fantasy",
+      "bookTitle": "test",
+      "bookAuthor": "test",
+      "dateCompleted": "2022-06-20T17:04:46.590Z",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "bookGenre": "Non-Fiction",
+      "bookTitle": "The Great Unwind",
+      "bookAuthor": "Barry Rothschild",
+      "dateCompleted": "2022-06-20T17:11:54.274Z",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "bookGenre": "",
+      "bookTitle": "",
+      "bookAuthor": "",
+      "dateCompleted": "2022-06-20T18:32:58.444Z",
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "bookGenre": "",
+      "bookTitle": "",
+      "bookAuthor": "",
+      "dateCompleted": "2022-06-20T19:59:35.454Z",
+      "id": 7
     }
   ],
   "selectedBooks": []
