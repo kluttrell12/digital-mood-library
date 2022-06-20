@@ -314,11 +314,5 @@
       "id": 1
     }
   ],
-  "selectedBooks": [
-    {
-      "id": 1,
-      "userId": 1,
-      "bookId": 1
-    }
-  ]
+  "selectedBooks": []
 }
