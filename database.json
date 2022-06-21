@@ -9,6 +9,31 @@
       "email": "kiefer@email.com",
       "fullName": "Kiefer Luttrell",
       "id": 2
+    },
+    {
+      "email": "Greg@email.com",
+      "fullName": "Greg Billings",
+      "id": 3
+    },
+    {
+      "email": "tiger@email.com",
+      "fullName": "Tony Tiger",
+      "id": 4
+    },
+    {
+      "email": "mallory@email.com",
+      "fullName": "Mallory Stubbs",
+      "id": 5
+    },
+    {
+      "email": "gus@email.com",
+      "fullName": "Gus Rogers",
+      "id": 6
+    },
+    {
+      "email": "dave@email.com",
+      "fullName": "Dave smith",
+      "id": 7
     }
   ],
   "readers": [
@@ -21,8 +46,43 @@
     {
       "id": 2,
       "userId": 2,
+      "favoriteGenre": "Thriller",
+      "booksRead": 8
+    },
+    {
+      "userId": 3,
+      "favoriteGenre": "Thriller",
+      "booksRead": 2,
+      "dateCompleted": "2022-06-20T21:36:41.807Z",
+      "id": 3
+    },
+    {
+      "userId": 4,
       "favoriteGenre": "Adventure",
-      "booksRead": 6
+      "booksRead": 3,
+      "dateCompleted": "2022-06-20T21:39:18.600Z",
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "favoriteGenre": "Non-Fiction",
+      "booksRead": 0,
+      "dateCompleted": "2022-06-20T21:47:02.959Z",
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "favoriteGenre": "Horror",
+      "booksRead": 0,
+      "dateCompleted": "2022-06-21T14:31:36.231Z",
+      "id": 6
+    },
+    {
+      "userId": 7,
+      "favoriteGenre": "Horror",
+      "booksRead": 3,
+      "dateCompleted": "2022-06-21T16:05:20.457Z",
+      "id": 7
     }
   ],
   "books": [
@@ -333,52 +393,28 @@
       "id": 1
     },
     {
-      "userId": 1,
-      "bookGenre": "test",
-      "bookTitle": "test",
-      "bookAuthor": "test",
-      "dateCompleted": "2022-06-20T15:36:50.771Z",
+      "userId": 7,
+      "bookGenre": "Adventure",
+      "bookTitle": "The Sun Also Rises",
+      "bookAuthor": "Ernest Hemingway",
+      "dateCompleted": "2022-06-21T18:11:39.319Z",
       "id": 2
     },
     {
-      "userId": 2,
+      "userId": 7,
       "bookGenre": "Non-Fiction",
-      "bookTitle": "test",
-      "bookAuthor": "test",
-      "dateCompleted": "2022-06-20T17:03:34.584Z",
+      "bookTitle": "The Big Short",
+      "bookAuthor": "Book Author",
+      "dateCompleted": "2022-06-21T18:12:08.160Z",
       "id": 3
     },
     {
-      "userId": 2,
-      "bookGenre": "Fantasy",
-      "bookTitle": "test",
-      "bookAuthor": "test",
-      "dateCompleted": "2022-06-20T17:04:46.590Z",
+      "userId": 7,
+      "bookGenre": "Thriller",
+      "bookTitle": "Test",
+      "bookAuthor": "Test ",
+      "dateCompleted": "2022-06-21T18:21:25.441Z",
       "id": 4
-    },
-    {
-      "userId": 2,
-      "bookGenre": "Non-Fiction",
-      "bookTitle": "The Great Unwind",
-      "bookAuthor": "Barry Rothschild",
-      "dateCompleted": "2022-06-20T17:11:54.274Z",
-      "id": 5
-    },
-    {
-      "userId": 2,
-      "bookGenre": "",
-      "bookTitle": "",
-      "bookAuthor": "",
-      "dateCompleted": "2022-06-20T18:32:58.444Z",
-      "id": 6
-    },
-    {
-      "userId": 2,
-      "bookGenre": "",
-      "bookTitle": "",
-      "bookAuthor": "",
-      "dateCompleted": "2022-06-20T19:59:35.454Z",
-      "id": 7
     }
   ],
   "selectedBooks": []
