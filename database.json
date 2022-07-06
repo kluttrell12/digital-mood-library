@@ -34,6 +34,36 @@
       "email": "dave@email.com",
       "fullName": "Dave smith",
       "id": 7
+    },
+    {
+      "email": "keagan@email.com",
+      "fullName": "Keagan Luttrell",
+      "id": 8
+    },
+    {
+      "email": "new@email.com",
+      "fullName": "New Member",
+      "id": 9
+    },
+    {
+      "email": "doug@email.com",
+      "fullName": "doug bay",
+      "id": 10
+    },
+    {
+      "email": "newPerson@email.com",
+      "fullName": "New Person",
+      "id": 11
+    },
+    {
+      "email": "newreader@email.com",
+      "fullName": "new reader",
+      "id": 12
+    },
+    {
+      "email": "demo@email.com",
+      "fullName": "Demo Member",
+      "id": 13
     }
   ],
   "readers": [
@@ -47,7 +77,7 @@
       "id": 2,
       "userId": 2,
       "favoriteGenre": "Thriller",
-      "booksRead": 8
+      "booksRead": 9
     },
     {
       "userId": 3,
@@ -83,6 +113,41 @@
       "booksRead": 3,
       "dateCompleted": "2022-06-21T16:05:20.457Z",
       "id": 7
+    },
+    {
+      "userId": 8,
+      "favoriteGenre": "Non-Fiction",
+      "booksRead": 0,
+      "dateCompleted": "2022-06-21T21:37:22.029Z",
+      "id": 8
+    },
+    {
+      "userId": 9,
+      "favoriteGenre": "Action",
+      "booksRead": 0,
+      "dateCompleted": "2022-06-23T20:49:23.826Z",
+      "id": 9
+    },
+    {
+      "userId": 10,
+      "favoriteGenre": "Non-Fiction",
+      "booksRead": 3,
+      "dateCompleted": "2022-06-23T23:25:57.095Z",
+      "id": 10
+    },
+    {
+      "userId": 11,
+      "favoriteGenre": "Adventure",
+      "booksRead": 2,
+      "dateCompleted": "2022-06-24T14:40:16.606Z",
+      "id": 11
+    },
+    {
+      "userId": 13,
+      "favoriteGenre": "Fantasy",
+      "booksRead": 5,
+      "dateCompleted": "2022-07-06T12:26:43.263Z",
+      "id": 12
     }
   ],
   "books": [
@@ -91,6 +156,7 @@
       "bookGenreId": 1,
       "moodId": 3,
       "title": "Treasure Island",
+      "imageURL": "https://www.gentlemansgazette.com/wp-content/uploads/2014/11/Treasure-Island-by-Robert-Louis-Stevenson.jpg",
       "author": "Robert Louis Stevenson"
     },
     {
@@ -98,6 +164,7 @@
       "bookGenreId": 1,
       "moodId": 2,
       "title": "The Hobbit",
+      "imageURL": "https://d3fa68hw0m2vcc.cloudfront.net/f18/209068514.jpeg",
       "author": "J.R.R. Tolkein"
     },
     {
@@ -105,6 +172,7 @@
       "bookGenreId": 1,
       "moodId": 2,
       "title": "Robinson Crusoe",
+      "imageURL": "https://img0.etsystatic.com/009/0/5750571/il_fullxfull.424392432_cykb.jpg",
       "author": "Daniel Defoe"
     },
     {
@@ -112,6 +180,7 @@
       "bookGenreId": 1,
       "moodId": 1,
       "title": "The Count of Monte Cristo",
+      "imageURL": "https://bookriot.com/wp-content/uploads/2013/06/count-of-monte-cristo-cover-by-corbet-and-curfman-686x1024.jpg",
       "author": "Alexandre Dumas"
     },
     {
@@ -119,6 +188,7 @@
       "bookGenreId": 1,
       "moodId": 2,
       "title": "Life of Pi",
+      "imageURL": "https://i.pinimg.com/originals/91/9f/54/919f54484be4ee5654e4443d4fdbe747.jpg",
       "author": "Yann Martel"
     },
     {
@@ -126,6 +196,7 @@
       "bookGenreId": 2,
       "moodId": 3,
       "title": "The Gunslinger",
+      "imageURL": "https://static.tvtropes.org/pmwiki/pub/images/gunslinger-grant-cover_2883.jpg",
       "author": "Stephen King"
     },
     {
@@ -133,6 +204,7 @@
       "bookGenreId": 2,
       "moodId": 2,
       "title": "The Princess Bride",
+      "imageURL": "https://i.pinimg.com/originals/f3/7f/91/f37f915f5a4b4c6f7039ebf5f4b97b52.jpg",
       "author": "William Goldman"
     },
     {
@@ -140,6 +212,7 @@
       "bookGenreId": 2,
       "moodId": 1,
       "title": "The Neverending Story",
+      "imageURL": "https://www.bookspdf4free.com/wp-content/uploads/2019/12/images-20.jpg",
       "author": "Michael Ende"
     },
     {
@@ -147,6 +220,7 @@
       "bookGenreId": 2,
       "moodId": 3,
       "title": "Tigana",
+      "imageURL": "https://i.pinimg.com/originals/fd/bd/e8/fdbde8ed306e0ea28727a2330b70fbac.jpg",
       "author": "Guy Gavriel Kay"
     },
     {
@@ -154,6 +228,7 @@
       "bookGenreId": 2,
       "moodId": 1,
       "title": "Best Served Cold",
+      "imageURL": "http://www.orbitbooks.net/wp-content/uploads/2009/10/Abercrombie_Best-Served-Cold-MM.jpg",
       "author": "Joe Abercrombie"
     },
     {
@@ -161,6 +236,7 @@
       "bookGenreId": 3,
       "moodId": 5,
       "title": "Dream Town",
+      "imageURL": "https://i.ebayimg.com/images/g/HYQAAOSwApBhXuQ3/s-l400.jpg",
       "author": "David Baldacci"
     },
     {
@@ -168,6 +244,7 @@
       "bookGenreId": 3,
       "moodId": 5,
       "title": "See Her Die",
+      "imageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568546320l/51545054._SX318_SY475_.jpg",
       "author": "Melinda Leigh"
     },
     {
@@ -175,6 +252,7 @@
       "bookGenreId": 3,
       "moodId": 1,
       "title": "In the Blood",
+      "imageURL": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982181659/in-the-blood-9781982181659_hr.jpg",
       "author": "Jack Carr"
     },
     {
@@ -182,6 +260,7 @@
       "bookGenreId": 3,
       "moodId": 5,
       "title": "Drift",
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41jKU%2BtQ1xL._SY346_.jpg",
       "author": "L.T. Ryan"
     },
     {
@@ -189,6 +268,7 @@
       "bookGenreId": 3,
       "moodId": 1,
       "title": "No Way Back",
+      "imageURL": "https://m.media-amazon.com/images/I/518MsNxQ9KL.jpg",
       "author": "J.B. Turner"
     },
     {
@@ -196,6 +276,7 @@
       "bookGenreId": 4,
       "moodId": 4,
       "title": "Pride and Prejudice",
+      "imageURL": "https://almabooks.com/wp-content/uploads/2016/10/9781847493699.jpg",
       "author": "Jane Austen"
     },
     {
@@ -203,6 +284,7 @@
       "bookGenreId": 4,
       "moodId": 4,
       "title": "Beach Read",
+      "imageURL": "https://wishfullyreading.files.wordpress.com/2020/05/beach-read-by-emily-henry.jpeg",
       "author": "Emily Henry"
     },
     {
@@ -210,6 +292,7 @@
       "bookGenreId": 4,
       "moodId": 4,
       "title": "Time Traveler's Wife",
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/41SADGQSXTL.jpg",
       "author": "Audrey Niffenegger"
     },
     {
@@ -217,6 +300,7 @@
       "bookGenreId": 4,
       "moodId": 4,
       "title": "Eleanor and Park",
+      "imageURL": "http://s.s-bol.com/imgbase0/imagebase3/large/FC/7/5/1/5/9200000028985157.jpg",
       "author": "Rainbow Rowell"
     },
     {
@@ -224,6 +308,7 @@
       "bookGenreId": 4,
       "moodId": 4,
       "title": "One Day in December",
+      "imageURL": "https://dynamic.indigoimages.ca/books/0525574689.jpg?altimages=false&scaleup=true&width=614&maxheight=614&quality=85&lang=en",
       "author": "Josie Silver"
     },
     {
@@ -231,6 +316,7 @@
       "bookGenreId": 5,
       "moodId": 5,
       "title": "The Tattoist of Auschwitz",
+      "imageURL": "https://cdn.hmv.com/r/w-640/hmv/files/28/28229fee-eac6-4e06-8f37-59b6a9473568.jpg",
       "author": "Heather Morris"
     },
     {
@@ -238,6 +324,7 @@
       "bookGenreId": 5,
       "moodId": 3,
       "title": "Educated",
+      "imageURL": "https://knowdemia.com/wp-content/uploads/2020/06/educated-4.jpg",
       "author": "Tara Westover"
     },
     {
@@ -245,6 +332,7 @@
       "bookGenreId": 5,
       "moodId": 5,
       "title": "North to Paradise",
+      "imageURL": "https://stat.ameba.jp/user_images/20220621/17/jasminehudson/45/76/j/o0793112315136253698.jpg",
       "author": "Ousman Umar"
     },
     {
@@ -252,6 +340,7 @@
       "bookGenreId": 5,
       "moodId": 5,
       "title": "In the Dream House",
+      "imageURL": "https://images-na.ssl-images-amazon.com/images/I/91zeicdP-gL.jpg",
       "author": "Carmen Maria Machado"
     },
     {
@@ -259,6 +348,7 @@
       "bookGenreId": 5,
       "moodId": 3,
       "title": "Ghetto Side",
+      "imageURL": "https://vdare.com/wp-content/uploads/2015/02/A1mftPyMp-L._SL1500_11.jpg",
       "author": "Jill Leovy"
     },
     {
@@ -266,6 +356,7 @@
       "bookGenreId": 6,
       "moodId": 1,
       "title": "The Da Vinci Code",
+      "imageURL": "https://s3-us-west-2.amazonaws.com/tabs.web.media/a/w/awut/awut-square-1536.jpg",
       "author": "Dan Brown"
     },
     {
@@ -273,6 +364,7 @@
       "bookGenreId": 6,
       "moodId": 5,
       "title": "Gone Girl",
+      "imageURL": "http://womanandhome.media.ipcdigital.co.uk/21348/00000b675/c614_orh100000w570/Gone-Girl-Book-Cover.jpg",
       "author": "Gillian Flynn"
     },
     {
@@ -280,6 +372,7 @@
       "bookGenreId": 6,
       "moodId": 5,
       "title": "The Girl With the Dragon Tattoo",
+      "imageURL": "http://img2.imagesbn.com/p/9780307473479_p0_v1_s260x420.JPG",
       "author": "Stieg Larsson"
     },
     {
@@ -287,6 +380,7 @@
       "bookGenreId": 6,
       "moodId": 3,
       "title": "The Girl on the Train",
+      "imageURL": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1469460259i/22557272._UY1200_SS1200_.jpg",
       "author": "Paula Hawkins"
     },
     {
@@ -294,6 +388,7 @@
       "bookGenreId": 6,
       "moodId": 5,
       "title": "The Firm",
+      "imageURL": "https://cdn2.penguin.com.au/covers/400/9780099537090.jpg",
       "author": "Robin Waterfield"
     },
     {
@@ -301,6 +396,7 @@
       "bookGenreId": 7,
       "moodId": 5,
       "title": "House of Leaves",
+      "imageURL": "https://images.huffingtonpost.com/2015-10-22-1445534963-1227779-HouseOfLeaves.jpg",
       "author": "Mark Z. Danielewski"
     },
     {
@@ -308,6 +404,7 @@
       "bookGenreId": 7,
       "moodId": 3,
       "title": "Hell House",
+      "imageURL": "http://2.bp.blogspot.com/-mre1_pRKcQQ/UcmlMnFVBXI/AAAAAAAAKDQ/SD7Eex_vesQ/s640/hell+house+bantam+1972+matheson.JPG",
       "author": "Richard Matheson"
     },
     {
@@ -315,6 +412,7 @@
       "bookGenreId": 7,
       "moodId": 3,
       "title": "Ghost Story",
+      "imageURL": "http://1.bp.blogspot.com/-NNdkVuk4lxY/UYjv7ad6H5I/AAAAAAAAJoc/rgAHTrnUpZY/s1600/ghost+story+-+peter+straub+-+pocket+books+-+apr+1980.jpg",
       "author": "Peter Straub"
     },
     {
@@ -322,6 +420,7 @@
       "bookGenreId": 7,
       "moodId": 4,
       "title": "The Turn of the Screw",
+      "imageURL": "https://i.pinimg.com/originals/be/d7/c7/bed7c71238d9b66909592f4ed23fa903.jpg",
       "author": "Henry James"
     },
     {
@@ -329,6 +428,7 @@
       "bookGenreId": 7,
       "moodId": 3,
       "title": "The Troop",
+      "imageURL": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781442369580/the-troop-9781442369580_hr.jpg",
       "author": "Nick Cutter"
     }
   ],
@@ -415,7 +515,80 @@
       "bookAuthor": "Test ",
       "dateCompleted": "2022-06-21T18:21:25.441Z",
       "id": 4
+    },
+    {
+      "userId": 8,
+      "bookGenre": "Non-Fiction",
+      "bookTitle": "The New School",
+      "bookAuthor": "School McFlurry",
+      "dateCompleted": "2022-06-23T01:03:56.111Z",
+      "id": 5
+    },
+    {
+      "userId": 10,
+      "bookGenre": "Non-Fiction",
+      "bookTitle": "test",
+      "bookAuthor": "test",
+      "dateCompleted": "2022-06-24T13:16:06.583Z",
+      "id": 6
+    },
+    {
+      "userId": 11,
+      "bookGenre": "Romance",
+      "bookTitle": "New Book",
+      "bookAuthor": "New Author",
+      "dateCompleted": "2022-06-24T14:40:55.145Z",
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "bookGenre": "Action",
+      "bookTitle": "New Book",
+      "bookAuthor": "New Book Author",
+      "dateCompleted": "2022-07-04T12:04:31.867Z",
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "bookGenre": "Action",
+      "bookTitle": "new book",
+      "bookAuthor": "new author",
+      "dateCompleted": "2022-07-06T12:25:56.630Z",
+      "id": 9
+    },
+    {
+      "userId": 13,
+      "bookGenre": "Thriller",
+      "bookTitle": "new book",
+      "bookAuthor": "new author",
+      "dateCompleted": "2022-07-06T14:34:59.402Z",
+      "id": 10
     }
   ],
-  "selectedBooks": []
+  "selectedBooks": [],
+  "randomBooks": [
+    {
+      "userId": 1,
+      "bookId": 1,
+      "bookImageURL": "https://www.gentlemansgazette.com/wp-content/uploads/2014/11/Treasure-Island-by-Robert-Louis-Stevenson.jpg",
+      "bookTitle": "Treasure Island",
+      "bookAuthor": "Robert Louis Stevenson",
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "bookId": 1,
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "bookId": 1,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "bookId": 1,
+      "id": 4
+    }
+  ]
 }
